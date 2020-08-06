@@ -1,6 +1,6 @@
 <?xml version="1.1" encoding="UTF-8"?>
 <!DOCTYPE keyboard SYSTEM "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
-<!--Last edited by Ukelele version 3.4.2.314 on 2020-08-06 at 08:47 (CEST)-->
+<!--Last edited by Ukelele version 3.4.2.314 on 2020-08-06 at 10:04 (CEST)-->
 <keyboard group="126" id="-25914" name="Diktor - QWERTY ⌘" maxout="1">
     <layouts>
         <layout first="0" last="0" mapSet="138" modifiers="30"/>
@@ -401,22 +401,22 @@
         </keyMap>
         <keyMap index="3">
             <key code="0" output="ƒ"/>
-            <key code="1" output="ы"/>
+            <key code="1" output="и"/>
             <key code="2" output="ћ"/>
             <key code="3" output="÷"/>
-            <key code="4" output="}"/>
+            <key code="4" output="љ"/>
             <key code="5" output="©"/>
             <key code="6" output="ђ"/>
             <key code="7" output="≈"/>
             <key code="8" output="≠"/>
             <key code="9" output="µ"/>
             <key code="10" output="§"/>
-            <key code="11" output="и"/>
-            <key code="12" output="ј"/>
-            <key code="13" output="џ"/>
+            <key code="11" output="ю"/>
+            <key code="12" output="џ"/>
+            <key code="13" output="ъ"/>
             <key code="14" output="ќ"/>
             <key code="15" output="®"/>
-            <key code="16" output="њ"/>
+            <key code="16" output="°"/>
             <key code="17" output="†"/>
             <key code="18" output="!"/>
             <key code="19" output="@"/>
@@ -425,27 +425,27 @@
             <key code="22" output="^"/>
             <key code="23" output="%"/>
             <key code="24" output="»"/>
-            <key code="25" output="("/>
+            <key code="25" output="{"/>
             <key code="26" output="&#x0026;"/>
             <key code="27" output="–"/>
             <key code="28" output="*"/>
-            <key code="29" output=")"/>
-            <key code="30" output="ъ"/>
-            <key code="31" output="ў"/>
+            <key code="29" output="}"/>
+            <key code="30" output="ў"/>
+            <key code="31" output="∆"/>
             <key code="32" output="ѓ"/>
             <key code="33" output="“"/>
             <key code="34" output="ѕ"/>
             <key code="35" output="‘"/>
             <key code="36" output="&#x000D;"/>
-            <key code="37" output="∆"/>
-            <key code="38" output="°"/>
-            <key code="39" output="э"/>
-            <key code="40" output="љ"/>
-            <key code="41" output="…"/>
+            <key code="37" output="…"/>
+            <key code="38" output="њ"/>
+            <key code="39" output="ј"/>
+            <key code="40" output="™"/>
+            <key code="41" output="₽"/>
             <key code="42" output="ё"/>
             <key code="43" output="≤"/>
             <key code="44" output="“"/>
-            <key code="45" output="™"/>
+            <key code="45" output="б"/>
             <key code="46" output="~"/>
             <key code="47" output="≥"/>
             <key code="48" output="&#x0009;"/>
