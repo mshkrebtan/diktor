@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>CFBundleIdentifier</key>
-	<string>org.sil.ukelele.keyboardlayout.</string>
+	<string>org.sil.ukelele.keyboardlayout.diktor</string>
 	<key>CFBundleName</key>
-	<string></string>
+	<string>Diktor</string>
 	<key>CFBundleVersion</key>
 	<string></string>
 	<key>KLInfo_Diktor - QWERTY ⌘</key>
@@ -13,7 +13,7 @@
 		<key>TICapsLockLanguageSwitchCapable</key>
 		<false/>
 		<key>TISInputSourceID</key>
-		<string>org.sil.ukelele.keyboardlayout..diktor-qwerty⌘</string>
+		<string>org.sil.ukelele.keyboardlayout.diktor.diktor-qwerty⌘</string>
 		<key>TISIntendedLanguage</key>
 		<string>ru</string>
 	</dict>
