@@ -52,8 +52,8 @@ id="effectiveness">[1](#fn-effectiveness)</sup>
 
 ## Установка
 
-1. Загрузите архив с раскладкой из раздела [*Releases*](/releases) и распакуйте
-   его.
+1. Загрузите архив с раскладкой из раздела
+   [*Releases*](https://github.com/mshkrebtan/diktor/releases) и распакуйте его.
 
 2. Скопируйте пакет `Diktor.bundle` в директорию:
 
@@ -83,7 +83,7 @@ id="effectiveness">[1](#fn-effectiveness)</sup>
 ![Type Fu](./img/type-fu-diktor.png)
 
 Файл с раскладкой «Диктор» для Type Fu можно найти в папке
-[type-fu](/tree/master/Diktor.bundle/Contents).
+[type-fu](/type-fu).
 
 ### Частотный словарь русской лексики
 
@@ -101,7 +101,7 @@ id="effectiveness">[1](#fn-effectiveness)</sup>
 
 Данный словарь доступен в виде
 [CSV-таблицы](http://dict.ruslang.ru/Freq2011.zip). Готовый словарь для Type Fu
-можно найти в папке [type-fu](/tree/master/Diktor.bundle/Contents).
+можно найти в папке [type-fu](/type-fu).
 
 #### .tfd
 
