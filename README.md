@@ -76,7 +76,7 @@ id="effectiveness">[1](#fn-effectiveness)</sup>
 
 ### Web
 
-Попрактиваться онлайн можно здесь:
+Попрактиковаться онлайн можно здесь:
 
 - [Touch Typing Study](https://www.typingstudy.com/ru-russian_diktor-3/lesson/1)
 
