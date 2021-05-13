@@ -7,7 +7,7 @@
 	<key>CFBundleName</key>
 	<string>Diktor</string>
 	<key>CFBundleVersion</key>
-	<string></string>
+	<string>1.0.1</string>
 	<key>KLInfo_Diktor - Colemak ⌘</key>
 	<dict>
 		<key>TICapsLockLanguageSwitchCapable</key>
