@@ -1,188 +1,68 @@
 {
   "id": "custom-faa61f27-4587-41af-9cc8-d96701bd1c9d",
   "name": "Diktor",
+  "description": "Based on http://olegp.name/software/diktor-keyboard-layout/geocities/",
   "version": 1,
   "keys": {
-    "KeyQ": {
-      "default": {
-        "base": "ц",
-        "shift": "Ц"
-      }
-    },
-    "Backquote": {
-      "default": {
-        "base": "]",
-        "shift": "[",
-        "alt": "]",
-        "altShift": "["
-      }
-    },
     "Digit1": {
       "default": {
         "base": "1",
-        "shift": "!",
-        "alt": "!",
-        "altShift": "|"
-      }
-    },
-    "KeyW": {
-      "default": {
-        "base": "ь",
-        "shift": "Ь",
-        "alt": "ъ",
-        "altShift": "Ъ"
+        "shift": "!"
       }
     },
     "Digit2": {
       "default": {
         "base": "2",
-        "shift": "\"",
-        "alt": "@",
-        "altShift": "\""
+        "shift": "\""
       }
     },
     "Digit3": {
       "default": {
         "base": "3",
-        "shift": "№",
-        "alt": "#",
-        "altShift": "£"
+        "shift": "№"
       }
     },
     "Digit4": {
       "default": {
         "base": "4",
-        "shift": "%",
-        "alt": "$",
-        "altShift": "€"
+        "shift": "%"
       }
     },
     "Digit5": {
       "default": {
         "base": "5",
-        "shift": ":",
-        "alt": "%",
-        "altShift": "∞"
+        "shift": ":"
       }
     },
     "Digit6": {
       "default": {
         "base": "6",
-        "shift": "\\",
-        "alt": "^",
-        "altShift": "¬"
+        "shift": "\\"
       }
     },
     "Digit7": {
       "default": {
         "base": "7",
-        "shift": "/",
-        "alt": "&",
-        "altShift": "¶"
+        "shift": "/"
       }
     },
     "Digit8": {
       "default": {
         "base": "8",
-        "shift": "\"",
-        "alt": "*",
-        "altShift": "√"
+        "shift": ";"
       }
     },
     "Digit9": {
       "default": {
         "base": "9",
-        "shift": "(",
-        "alt": "(",
-        "altShift": "'"
+        "shift": "("
       }
     },
     "Digit0": {
       "default": {
         "base": "0",
-        "shift": ")",
-        "alt": ")",
-        "altShift": "`"
+        "shift": ")"
       }
-    },
-    "Minus": {
-      "default": {
-        "base": "*",
-        "shift": "_",
-        "alt": "–",
-        "altShift": "—"
-      }
-    },
-    "Equal": {
-      "default": {
-        "base": "=",
-        "shift": "+",
-        "alt": "»",
-        "altShift": "«"
-      }
-    },
-    "KeyE": {
-      "default": {
-        "base": "я",
-        "shift": "Я"
-      }
-    },
-    "KeyR": {
-      "default": {
-        "base": ",",
-        "shift": "?"
-      }
-    },
-    "KeyT": {
-      "default": {
-        "base": ".",
-        "shift": "!"
-      }
-    },
-    "KeyY": {
-      "default": {
-        "base": "з",
-        "shift": "З"
-      }
-    },
-    "KeyU": {
-      "default": {
-        "base": "в",
-        "shift": "В"
-      }
-    },
-    "KeyI": {
-      "default": {
-        "base": "к",
-        "shift": "К"
-      }
-    },
-    "KeyO": {
-      "default": {
-        "base": "д",
-        "shift": "Д"
-      }
-    },
-    "KeyP": {
-      "default": {
-        "base": "ч",
-        "shift": "Ч"
-      }
-    },
-    "BracketLeft": {
-      "default": {
-        "base": "ш",
-        "shift": "Ш"
-      }
-    },
-    "BracketRight": {
-      "default": {
-        "base": "щ",
-        "shift": "Щ"
-      }
-    },
-    "Backslash": {
-      "default": {}
     },
     "KeyA": {
       "default": {
@@ -190,16 +70,28 @@
         "shift": "У"
       }
     },
-    "KeyS": {
+    "KeyB": {
       "default": {
-        "base": "и",
-        "shift": "И"
+        "base": "ю",
+        "shift": "Ю"
+      }
+    },
+    "KeyC": {
+      "default": {
+        "base": "х",
+        "shift": "Х"
       }
     },
     "KeyD": {
       "default": {
         "base": "е",
         "shift": "Е"
+      }
+    },
+    "KeyE": {
+      "default": {
+        "base": "я",
+        "shift": "Я"
       }
     },
     "KeyF": {
@@ -220,6 +112,12 @@
         "shift": "Л"
       }
     },
+    "KeyI": {
+      "default": {
+        "base": "к",
+        "shift": "К"
+      }
+    },
     "KeyJ": {
       "default": {
         "base": "н",
@@ -238,46 +136,10 @@
         "shift": "С"
       }
     },
-    "Semicolon": {
+    "KeyM": {
       "default": {
-        "base": "р",
-        "shift": "Р"
-      }
-    },
-    "Quote": {
-      "default": {
-        "base": "й",
-        "shift": "Й"
-      }
-    },
-    "KeyZ": {
-      "default": {
-        "base": "ф",
-        "shift": "Ф"
-      }
-    },
-    "KeyX": {
-      "default": {
-        "base": "э",
-        "shift": "Э"
-      }
-    },
-    "KeyC": {
-      "default": {
-        "base": "х",
-        "shift": "Х"
-      }
-    },
-    "KeyV": {
-      "default": {
-        "base": "ы",
-        "shift": "Ы"
-      }
-    },
-    "KeyB": {
-      "default": {
-        "base": "ю",
-        "shift": "Ю"
+        "base": "м",
+        "shift": "М"
       }
     },
     "KeyN": {
@@ -286,10 +148,131 @@
         "shift": "Б"
       }
     },
-    "KeyM": {
+    "KeyO": {
       "default": {
-        "base": "м",
-        "shift": "М"
+        "base": "д",
+        "shift": "Д"
+      }
+    },
+    "KeyP": {
+      "default": {
+        "base": "ч",
+        "shift": "Ч"
+      }
+    },
+    "KeyQ": {
+      "default": {
+        "base": "ц",
+        "shift": "Ц"
+      }
+    },
+    "KeyR": {
+      "default": {
+        "base": ",",
+        "shift": "?"
+      }
+    },
+    "KeyS": {
+      "default": {
+        "base": "и",
+        "shift": "И"
+      }
+    },
+    "KeyT": {
+      "default": {
+        "base": ".",
+        "shift": "!"
+      }
+    },
+    "KeyU": {
+      "default": {
+        "base": "в",
+        "shift": "В"
+      }
+    },
+    "KeyV": {
+      "default": {
+        "base": "ы",
+        "shift": "Ы"
+      }
+    },
+    "KeyW": {
+      "default": {
+        "base": "ь",
+        "shift": "Ь",
+        "alt": "ъ",
+        "altShift": "Ъ"
+      }
+    },
+    "KeyX": {
+      "default": {
+        "base": "э",
+        "shift": "Э"
+      }
+    },
+    "KeyY": {
+      "default": {
+        "base": "з",
+        "shift": "З"
+      }
+    },
+    "KeyZ": {
+      "default": {
+        "base": "ф",
+        "shift": "Ф"
+      }
+    },
+    "Minus": {
+      "default": {
+        "base": "-",
+        "shift": "_"
+      }
+    },
+    "Equal": {
+      "default": {
+        "base": "=",
+        "shift": "+",
+        "alt": "»",
+        "altShift": "«"
+      }
+    },
+    "BracketLeft": {
+      "default": {
+        "base": "ш",
+        "shift": "Ш"
+      }
+    },
+    "BracketRight": {
+      "default": {
+        "base": "щ",
+        "shift": "Щ"
+      }
+    },
+    "Backslash": {
+      "default": {
+        "base": "ё",
+        "shift": "Ё"
+      }
+    },
+    "IntlBackslash": {
+      "default": {}
+    },
+    "Semicolon": {
+      "default": {
+        "base": "ч",
+        "shift": "Ч"
+      }
+    },
+    "Backquote": {
+      "default": {
+        "base": "]",
+        "shift": "["
+      }
+    },
+    "Quote": {
+      "default": {
+        "base": "й",
+        "shift": "Й"
       }
     },
     "Comma": {
@@ -309,7 +292,11 @@
         "base": "ж",
         "shift": "Ж"
       }
+    },
+    "Space": {
+      "default": {
+        "base": " "
+      }
     }
-  },
-  "description": "Based on http://olegp.name/software/diktor-keyboard-layout/geocities/"
+  }
 }
