@@ -52,6 +52,8 @@ id="effectiveness">[1](#fn-effectiveness)</sup>
 
 ## Установка
 
+### MacOS
+
 1. Загрузите архив с раскладкой из раздела
    [*Releases*](https://github.com/mshkrebtan/diktor/releases) и распакуйте его.
 
@@ -68,6 +70,34 @@ id="effectiveness">[1](#fn-effectiveness)</sup>
    нужный путь в появившемся окне.
 
 3. Завершите сеанс и заново войдите в систему.
+
+### Linux
+
+1. Добавьте содержимое файла `X11/xkb/symbols/ru` в файл
+   `/usr/share/X11/xkb/symbols/ru`:
+
+   ```sh
+   sudo cat X11/xkb/symbols/ru >> /usr/share/X11/xkb/symbols/ru
+   ```
+
+2. Добавьте следующий блок в файл `/usr/share/X11/xkb/rules/evdev.xml`:
+
+    ```xml
+        <variant>
+          <configItem>
+            <name>diktor</name>
+            <description>Russian (Diktor)</description>
+          </configItem>
+        </variant>
+    ```
+
+3. Перезагрузите систему.
+
+### Emacs
+
+    ```elisp
+    (load-file ".emacs.d/quail-diktor.el")
+    ```
 
 ## Тренировка слепой печати
 
