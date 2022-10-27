@@ -1,0 +1,41 @@
+--- /usr/share/X11/xkb/rules/evdev.xml
++++ /usr/share/X11/xkb/rules/evdev.xml
+@@ -5041,32 +5041,38 @@
+     <layout>
+       <configItem>
+         <name>ru</name>
+         <!-- Keyboard indicator for Russian layouts -->
+         <shortDescription>ru</shortDescription>
+         <description>Russian</description>
+         <countryList>
+           <iso3166Id>RU</iso3166Id>
+         </countryList>
+         <languageList>
+           <iso639Id>rus</iso639Id>
+         </languageList>
+       </configItem>
+       <variantList>
+         <variant>
+           <configItem>
++            <name>diktor</name>
++            <description>Russian (Diktor)</description>
++          </configItem>
++        </variant>
++        <variant>
++          <configItem>
+             <name>phonetic</name>
+             <description>Russian (phonetic)</description>
+           </configItem>
+         </variant>
+         <variant>
+           <configItem>
+             <name>phonetic_winkeys</name>
+             <description>Russian (phonetic, Windows)</description>
+           </configItem>
+         </variant>
+         <variant>
+           <configItem>
+             <name>phonetic_YAZHERTY</name>
+             <description>Russian (phonetic, YAZHERTY)</description>
+           </configItem>
+         </variant>
