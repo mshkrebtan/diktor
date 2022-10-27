@@ -71,27 +71,22 @@ id="effectiveness">[1](#fn-effectiveness)</sup>
 
 3. Завершите сеанс и заново войдите в систему.
 
-### Linux
+### X Keyboard Extension
 
-1. Добавьте содержимое файла `X11/xkb/symbols/ru` в файл
-   `/usr/share/X11/xkb/symbols/ru`:
-
-   ```sh
-   sudo cat X11/xkb/symbols/ru >> /usr/share/X11/xkb/symbols/ru
+1. Добавьте новый вариант русской раскладки:
+   ``` shell
+   sudo make xkb
    ```
 
-2. Добавьте следующий блок в файл `/usr/share/X11/xkb/rules/evdev.xml`:
+2. Выйдите и зайдите в систему (log out, log in).
 
-    ```xml
-        <variant>
-          <configItem>
-            <name>diktor</name>
-            <description>Russian (Diktor)</description>
-          </configItem>
-        </variant>
-    ```
+Для восстановления расскладок достаточно переустановить пакет, предоставляющий
+файлы конфигурации XKB — `symbols` и `rules`. В дистрибутиве OpenSuse такой
+пакет — `xkeyboard-config`:
 
-3. Перезагрузите систему.
+``` shell
+sudo make xkb-restore
+```
 
 ### Emacs
 
@@ -193,6 +188,11 @@ id="effectiveness">[1](#fn-effectiveness)</sup>
      | head -n 10000 \
      >> Russian\ words.tfd
    ```
+
+## Ссылки на источники
+
+- libxkbcommon: User-configuration
+  https://xkbcommon.org/doc/current/md_doc_user_configuration.html
 
 ---
 1. <a id="fn-effectiveness">О вопросах сравнения и оптимизации
