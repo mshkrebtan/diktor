@@ -259,8 +259,8 @@
     },
     "Semicolon": {
       "default": {
-        "base": "ч",
-        "shift": "Ч"
+        "base": "р",
+        "shift": "Р"
       }
     },
     "Backquote": {
